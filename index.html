@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Pythagorean Theorem with Motion Canvas</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="index.js"></script>
+  </head>
+  <body>
+    <canvas id="canvas" width="400" height="500"></canvas>
+
+    <div class="slider-container">
+      <div class="slider">
+        <label for="side-a">Side A:</label>
+        <input type="range" id="side-a" name="side-a" min="1" max="200" value="100">
+      </div>
+      <div class="slider">
+        <label for="side-b">Side B:</label>
+        <input type="range" id="side-b" name="side-b" min="1" max="200" value="100">
+      </div>
+    </div>
+
+    <div id="square-a" class="square"></div>
+    <div id="square-b" class="square"></div>
+    <div id="square-c" class="square"></div>
+  </body>
+</html>
+

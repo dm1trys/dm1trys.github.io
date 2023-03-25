@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+  border: 1px solid #ccc;
+}
+
+.slider-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  margin: 0 20px;
+}
+
+.square {
+  position: absolute;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  pointer-events: none;
+}
+
